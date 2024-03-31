@@ -1,11 +1,13 @@
-# Sample Snack app
+# 🎉 Welcome to Protein Tracker! 🎉
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Protein Tracker is a revolutionary mini app designed to help you keep track of your daily protein intake! 🥩🍗🥚
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+With a simple and intuitive interface, Protein Tracker makes it easy to log the protein content of every meal. Just enter what you’ve eaten, and the app will do the rest! It’s like having a personal nutritionist in your pocket. 📱
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+But that’s not all! Protein Tracker also provides personalized daily protein goals based on your unique body type and fitness goals. Whether you’re looking to build muscle, lose weight, or just maintain a healthy diet, Protein Tracker has got you covered! 💪
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+So why wait? Start your journey to a healthier, protein-rich lifestyle with Protein Tracker today! 🚀
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+
+
+
