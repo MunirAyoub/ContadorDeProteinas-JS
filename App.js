@@ -4,6 +4,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import CalculoProteinaScreen from './CalculoProteinaScreen';
 import MetaScreen from './MetaScreen';
+//imports
+
 
 const Stack = createStackNavigator();
 
@@ -41,6 +43,15 @@ export default function App() {
 function HomeScreen({ navigation }) {
   return (
     <SafeAreaView style={styles.container}>
+      <View style={styles.contentAlunos}>
+        <Text style= {styles.alunosText}>
+          Developed by Enzo Oliveira e Munir Ayoub 
+        </Text>
+        <Text style= {styles.alunosText}>
+          RMs:  551356 e 550893 
+        </Text>
+      </View>
+
       <View style={styles.content}>
         <Text style={styles.welcomeText}>Seja bem-vindo, senhor!</Text>
         <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('CalculoProteina')}>
@@ -54,6 +65,8 @@ function HomeScreen({ navigation }) {
   );
 }
 
+
+//styles
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -61,7 +74,7 @@ const styles = StyleSheet.create({
   },
   content: {
     flex: 1,
-    justifyContent: 'center',
+    paddingTop: 120,
     alignItems: 'center',
   },
   welcomeText: {
@@ -83,5 +96,16 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     color: '#fff',
+  },
+  alunosText: {
+    fontSize:15,
+    fontWeight: 'bold',
+    paddingHorizontal: 30,
+    textAlign: 'center',
+  },
+  contentAlunos: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingTop: 70,
   },
 });
